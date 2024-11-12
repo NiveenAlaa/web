@@ -1,0 +1,224 @@
+body{
+    font-family:'Courier New', Courier, monospace;
+    background-color: rgb(242, 239, 239);
+}
+
+
+img  {
+    opacity: 0; 
+    transition: opacity 2s ease-in-out; 
+  }
+
+.card img{
+    opacity: 0; 
+    transition: opacity 2s ease-in-out;      
+}
+  
+
+.custom-size {
+    width: 100%;
+    height: 400px;
+    object-fit: cover; 
+}
+
+.product{
+    color: #0b80c7;
+    padding: 8px;
+    border: 4px solid #0eced4;
+    box-shadow: rgb(102, 102, 102) 2px 2px;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    width: 350px;
+    position: relative;
+    left: 560px;
+    font-weight: bold;
+}
+
+.section{
+    color: #0b80c7;
+    padding: 5px;
+    border: 3px  rgb(255, 255, 255);
+    border-style:outset;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    width: 280px;
+    position: relative;
+    left: 595px;
+    font-weight: bold;
+}
+
+.card{
+    width: 320px;
+    height: 450px;
+    box-shadow: #0eced4 1px 2px;
+
+}
+
+.card-img-top{
+    width: 180px;
+    display: flex;
+   position: relative;
+   left: 65px;
+   padding-top: 15px;
+}
+
+.col{
+    padding: 0px;
+    width: 330px;
+    margin-right: 6px;
+}
+
+.row{
+    flex-wrap: nowrap;
+
+}
+
+.blood{
+    width: 470px;
+}
+
+
+.home{
+    display: flex;
+    justify-content: center;
+}
+
+
+#accordionFlushExample{
+    width: 400px;
+    position: relative;
+    left: 80px;
+}
+
+.accordion-item{
+    background-color: #c8f3f3;
+}
+
+.card-body h5{
+    color:#0b80c7 ;
+}
+
+.form label{
+    font-weight: bold;
+    color:#0b80c7 ;
+}
+
+.send label{
+    font-weight: bold;
+    color:#0b80c7 ;
+}
+
+.you label{
+    font-weight: bold;
+    color:#0b80c7 ;
+
+}
+
+.what{
+    display: flex;
+    justify-content: center;
+    color: #0b80c7 ;
+    background-color: #c8f3f3;
+    font-weight: bolder;
+}
+
+.form{
+display: flex;
+justify-content: center;
+}
+
+label{
+    padding: 7px;
+}
+
+.send{
+    display: flex;
+    justify-content: center;
+    margin-top: 12px;
+}
+
+.send input{
+    width: 490px;
+}
+
+.contact h4{
+    color: #0b80c7;
+    font-weight: bolder;
+    font-size:xx-large;
+    background-color: #c8f3f3;
+    width: 290px;
+    position: relative;
+    left: 180px;
+}
+
+.contact i,label{
+    color: #0b80c7;
+    font-weight: bold;
+    padding: 0px;
+}
+
+.you{
+    display: flex;
+    justify-content: center;
+    margin: 12px;
+}
+
+.star-rating {
+    display: flex;
+    direction: row-reverse;
+    justify-content: center;
+  }
+  
+  .star {
+    font-size: 2rem;
+    color: #0b80c7;
+    cursor: pointer;
+  }
+  
+  input[type="radio"] {
+    display: none;
+  }
+  
+  input[type="radio"]:checked ~ label {
+    color: gold;
+  }
+  
+  input[type="radio"]:checked ~ label:hover,
+  input[type="radio"]:checked ~ label:hover ~ label {
+    color: darkorange;
+  }
+  
+  .star:hover,
+  .star:hover ~ .star {
+    color: gold;
+  }
+
+.Pharmacist{
+    width: 500px;
+}
+
+footer{
+    background-color: #0a4c75 ;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.home{
+    color: #0b80c7;
+    padding: 8px;
+    border: 4px solid #0eced4;
+    box-shadow: rgb(102, 102, 102) 2px 2px;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    width: 500px;
+    position: relative;
+    left: 475px;
+    font-weight: bold; 
+}
+
+
+
